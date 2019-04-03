@@ -10,7 +10,7 @@ Or Yarn if you have
 yarn install
 ```
 
-After you you finished installing all the required packages, open your phone emulator and start the app by these command lines:
+After you you finished installing all the required packages, connect your phone to PC or open an emulator and start the app by these command lines at the project directory:
 
 ```
 react-native run-android

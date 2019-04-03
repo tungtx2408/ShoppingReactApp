@@ -19,9 +19,7 @@ react-native run-android
 The short version:
 
 ```
-npm install
-/
-yarn install
+npm install / yarn install
 
 react-native run-android
 ```

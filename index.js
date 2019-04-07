@@ -4,6 +4,6 @@
  */
 
 import { AppRegistry } from "react-native";
-import Home from "./app/views/Home";
+import App from "./src/App";
 
-AppRegistry.registerComponent("ShoppingReactApp", () => Home);
+AppRegistry.registerComponent("ShoppingReactApp", () => App);

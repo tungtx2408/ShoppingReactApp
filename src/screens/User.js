@@ -1,15 +1,6 @@
 import React, { Component } from "react";
 import { Text, View, TouchableOpacity } from "react-native";
-import {
-  Header,
-  Left,
-  Content,
-  Right,
-  Container,
-  Button,
-  Body,
-  Title
-} from "native-base";
+import { Header, Left, Right, Body, Title } from "native-base";
 import Icon from "react-native-vector-icons/FontAwesome5";
 export default class User extends Component {
   static navigationOptions = ({ navigation }) => {
@@ -29,14 +20,14 @@ export default class User extends Component {
                 alignItems: "center"
               }}
               onPress={() => {
-                navigation.openDrawer();
+                navigation.goBack();
               }}
             >
-              <Icon name="bars" size={18} color={"#fff"} />
+              <Icon name="chevron-left" size={18} color={"#fff"} />
             </TouchableOpacity>
           </Left>
           <Body>
-            <Title>Header</Title>
+            <Title>User's profile</Title>
           </Body>
           <Right />
         </Header>
